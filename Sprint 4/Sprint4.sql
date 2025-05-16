@@ -282,8 +282,11 @@ ALTER TABLE transaction_products ADD FOREIGN KEY (product_id) REFERENCES product
 #Exercici 1:
 #Necessitem conèixer el nombre de vegades que s'ha venut cada producte.
 
-SELECT product_id AS product, COUNT(DISTINCT transaction_id) AS items_sold, product_name
-FROM transaction_products
+SELECT tp.product_id, p.product_name, COUNT(DISTINCT tp.transaction_id) AS items_sold
+FROM transaction_products tp
 JOIN products p
-ON product_id = id
-GROUP BY product;
+ON tp.product_id = p.id
+JOIN transactions t
+ON t.id = tp.transaction_id
+WHERE t.declined = 0
+GROUP BY tp.product_id;
