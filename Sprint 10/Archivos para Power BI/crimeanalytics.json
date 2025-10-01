@@ -1,0 +1,129 @@
+{
+    "name": "Crime Analytics - Clean",
+    "dataColors": [
+        "#E63946",
+        "#BB4A4A",
+        "#1B4D5C",
+        "#293537",
+        "#D95D39",
+        "#B687AC",
+        "#F4D35E",
+        "#B9DED3"
+    ],
+    "foreground": "#212121",
+    "background": "#FFFFFF",
+    "tableAccent": "#E63946",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "visualTooltip": [
+                    {
+                        "themedBackground": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "themedForeground": {
+                            "solid": {
+                                "color": "#212121"
+                            }
+                        }
+                    }
+                ]
+            },
+            "table": {
+                "outspacePane": [
+                    {
+                        "show": true,
+                        "background": {
+                            "solid": {
+                                "color": "#F0F0F0"
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": "#D3D3D3"
+                            }
+                        }
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "foreground": {
+                            "solid": {
+                                "color": "#212121"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#F0F0F0"
+                            }
+                        }
+                    }
+                ]
+            },
+            "card": {
+                "outspacePane": [
+                    {
+                        "show": true,
+                        "background": {
+                            "solid": {
+                                "color": "#F0F0F0"
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": "#D3D3D3"
+                            }
+                        }
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "foreground": {
+                            "solid": {
+                                "color": "#212121"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#F0F0F0"
+                            }
+                        }
+                    }
+                ]
+            },
+            "clusteredColumnChart": {
+                "outspacePane": [
+                    {
+                        "show": true,
+                        "background": {
+                            "solid": {
+                                "color": "#F0F0F0"
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": "#D3D3D3"
+                            }
+                        }
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "foreground": {
+                            "solid": {
+                                "color": "#212121"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#F0F0F0"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
